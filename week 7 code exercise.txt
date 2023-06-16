@@ -4,7 +4,7 @@ def main():
     num_scores = 0
 
     while True:
-        score = input("Enter a test score (0-100), or 999 to exit: ")
+        score = input()
         score = int(score)
 
         if score == 999:
